@@ -1,0 +1,11 @@
+$i: 5;
+@while $i <= 100{
+  .m-h-#{$i} { min-height: $i; }
+  $i: $i + 5;
+}
+
+$i: 5;
+@while $i <= 100{
+  .m-w-#{$i} { min-width: $i; }
+  $i: $i + 5;
+}

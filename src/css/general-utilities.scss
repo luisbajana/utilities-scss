@@ -1,6 +1,7 @@
-@import 'colors';
-@import 'fonts';
-@import 'responsive';
+@import 'partials/colors';
+@import 'partials/fonts';
+@import 'partials/responsive';
+@import 'partials/layout_helpers';
 
 
 /*
@@ -17,43 +18,7 @@
 
 .azul-oscuro{ color: $azulOscuro; }
 
-.m-h-20{
-  min-height: 20px !important;
-}
 
-.m-h-45{
-  min-height: 45px !important;
-}
-
-.m-h-100{
-  min-height: 100px !important;
-}
-
-.m-h-110{
-  min-height: 110px !important;
-}
-
-.m-h-130{
-  min-height: 130px !important;
-}
-
-
-
-.m-w-130{
-  min-width: 130px;
-}
-
-.m-w-140{
-  min-width: 140px;
-}
-
-.m-w-180{
-  min-width: 180px;
-}
-
-.m-w-220{
-  min-width: 220px !important;
-}
 
 
 @media (max-width: $screen-sm-min) {

@@ -1,0 +1,23 @@
+{
+  "name": "utilities-scss",
+  "homepage": "https://github.com/luisbajana/utilities-scss",
+  "authors": [
+    "Luis Bajana"
+  ],
+  "description": "Set of utilities using SCSS intended to help developers to create simple layouts using simple snippets",
+  "main": "src/css/general-utilities.scss",
+  "keywords": [
+    "scss",
+    "sass",
+    "preprocessors",
+    "utilities"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
